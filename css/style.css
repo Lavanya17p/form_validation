@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(../img/bg_img.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.container{
+    position: relative;
+    background-color:#eee;
+    margin-top: 60px;
+    width: 490px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.heading{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #2d2772;
+    text-align: center;
+}
+
+.login_form{
+    padding: 20px 40px;
+}
+
+.login_form .label, .login_form .label1{
+    font-size: 22px;
+    color: #12111a;
+    margin: 5px 0;
+}
+
+.login_form input{
+    width: 380px;
+    height: 40px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.login_form button{
+    margin-top: 20px;
+    display: block;
+    width: 320px;
+    margin-left: 35px;
+    background: linear-gradient(to right, #3b24aa, #a93da0);
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: snow;
+    border: 1px solid silver;
+    transition: .5s;
+}
+
+.login_form button:hover{
+ background: #331e9e;
+}
+
+#email_error, #pass_error{
+    width: 380px;
+    height: 30px;
+    padding: 8px 5px 0px 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: none;
+    background: rgb(240, 219, 219);
+}
